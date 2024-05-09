@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+body{
+  height: 90vh;
+  background-color: #F5D04E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  max-width: 310px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 8px 8px 5px rgba( 0, 0, 0, 0.4);
+}
+
+.design{
+  width: 88%;
+  height: 200px;
+  margin: auto;
+  margin-top:18px;
+  background-image: url('screenshot.jpg');
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.paragraph{
+  margin:18px 18px 0 18px;
+}
+
+.paragraph .learning{
+  margin-bottom: 12px;
+  padding: 4px 6px;
+  display: inline-block;
+  font-weight: 700;
+  background-color: #F0D461;
+}
+
+.paragraph .publish{
+  font-size: 0.85rem;
+}
+
+.paragraph .foundation{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.paragraph .text{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+}
+
+.profile{
+  margin: 18px 18px 10px 18px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.profile img{
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile span{
+  font-size: 1.3rem;
+  font-weight: 500;
+  
+}
